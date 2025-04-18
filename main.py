@@ -3,7 +3,7 @@ import xlsxwriter # type: ignore
 from time import sleep
 
 # Настройки
-API_KEY = "Your-API"  # Замените на ваш Etherscan API ключ
+API_KEY = "YOUR_API_KEY"  # Замените на ваш Etherscan API ключ
 WALLETS_FILE = "wallets.txt"
 OUTPUT_EXCEL = "wallets_transactions.xlsx"
 BASE_URL = "https://api.etherscan.io/api"
